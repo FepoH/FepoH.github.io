@@ -1,387 +1,203 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Fepo_H</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+<!DOCTYPE html><html lang="ch" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Fepo_H</title><meta name="author" content="Fepo_H"><meta name="copyright" content="Fepo_H"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
 <meta property="og:title" content="Fepo_H">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Fepo_H">
 <meta property="og:locale">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:author" content="Fepo_H">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Fepo_H',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-04-23 01:37:51'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="Fepo_H" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Fepo_H</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="aaa-aaa" class="h-entry article article-type-aaa" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/04/23/aaa/" class="article-date">
-  <time class="dt-published" datetime="2023-04-22T16:41:52.000Z" itemprop="datePublished">2023-04-23</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/04/23/aaa/">aaa</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/23/aaa/" data-id="clgs7md6c00008gvb8kipend3" data-title="aaa" class="article-share-link">Teilen</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Fepo_H"><span class="site-name">Fepo_H</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Fepo_H</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2023/04/23/aaa/" title="aaa">aaa</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-22T16:41:52.000Z" title="Created 2023-04-23 00:41:52">2023-04-23</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2023/04/23/README/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-22T16:39:07.392Z" title="Created 2023-04-23 00:39:07">2023-04-23</time></span></div><div class="content">This directory contains sound files for deployment as mintty bell sounds.
+Mintty bell soundsThe BOING soundis available on YouTube, BOING.WAV.
+Other nice boing sounds could be extracted fromYouTube, Boing 0orYouTube, Boing 2.
+Further sounds are selected from a contribution of “naknak”, with some instructionshow to make bell soundsfrom sound sources that may be useful to others.The sounds are provided under the creative commons license.See the subfolder archive in the mintty repository for the co ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2023/04/23/google%20c++%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-22T16:38:30.454Z" title="Created 2023-04-23 00:38:30">2023-04-23</time></span></div><div class="content">google编程规范头文件
+#define保护
+尽量使用前置申明，减少#include的数量（能依赖声明就不要依赖定义）
+只有当函数只有10行或更少时才定义内联函数
+定义函数时，参数顺序为：输入参数在前，输出参数在后（不强制要求，难以遵守）
+源文件中头文件的包含次序：
+源文件的头文件
+C系统文件
+C++系统文件
+其他库头文件
+本项目内头文件
 
 
 
-  
-    <article id="post-README" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/04/23/README/" class="article-date">
-  <time class="dt-published" datetime="2023-04-22T16:39:07.392Z" itemprop="datePublished">2023-04-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>This directory contains sound files for deployment as mintty bell sounds.</p>
-<h3 id="Mintty-bell-sounds"><a href="#Mintty-bell-sounds" class="headerlink" title="Mintty bell sounds"></a>Mintty bell sounds</h3><p>The BOING sound<br>is available on <a target="_blank" rel="noopener" href="http://kunalsdatabase.com/ebooks/computer_ebooks/Hacking%20eBooks%20Collection/Hacking/Hacking%20Tools/Hacking%20Tools/HO2K%20v0.1.8.1/HO2K%20v0.1.8.1/">YouTube, BOING.WAV</a>.</p>
-<p>Other nice boing sounds could be extracted from<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iew9op9aPLQ">YouTube, Boing 0</a><br>or<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=d7vfbyFl5kc">YouTube, Boing 2</a>.</p>
-<p>Further sounds are selected from a contribution of “naknak”, with some instructions<br><a target="_blank" rel="noopener" href="https://github.com/mintty/mintty/issues/711#issuecomment-483074839">how to make bell sounds</a><br>from sound sources that may be useful to others.<br>The sounds are provided under the creative commons license.<br>See the subfolder <code>archive</code> in the mintty repository for the complete set.</p>
-<p>Suitable Windows sounds may be <code>Windows Default.wav</code>, <code>Windows Ding.wav</code>,<br><code>Windows Critical Stop.wav</code>, from the Windows subfolder <code>Media</code>.</p>
-<p>To deploy a sound file to be listed in the Options dialog,<br>simply copy a .wav file into the config subfolder <code>sounds</code><br>(e.g. in <code>$HOME/.config/mintty</code> or <code>$APPDATA/mintty</code>).</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/23/README/" data-id="clgs7gl7g0002o8vb4s0hd1xu" data-title="" class="article-share-link">Teilen</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+类
+构造函数
+一般只进行无意义的成员变量初始化，其他有意义的成员变量放入init()函数中
+使用一个成员标记对象是否已经初始化成功
 
 
-
-  
-    <article id="post-google c++编程规范" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/04/23/google%20c++%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/" class="article-date">
-  <time class="dt-published" datetime="2023-04-22T16:38:30.454Z" itemprop="datePublished">2023-04-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="google编程规范"><a href="#google编程规范" class="headerlink" title="google编程规范"></a>google编程规范</h1><h2 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h2><ul>
-<li>#define保护</li>
-<li>尽量使用前置申明，减少#include的数量（能依赖声明就不要依赖定义）</li>
-<li>只有当函数只有10行或更少时才定义内联函数</li>
-<li>定义函数时，参数顺序为：输入参数在前，输出参数在后（不强制要求，难以遵守）</li>
-<li>源文件中头文件的包含次序：<ul>
-<li>源文件的头文件</li>
-<li>C系统文件</li>
-<li>C++系统文件</li>
-<li>其他库头文件</li>
-<li>本项目内头文件</li>
-</ul>
-</li>
-</ul>
-<h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><ul>
-<li>构造函数<ol>
-<li>一般只进行无意义的成员变量初始化，其他有意义的成员变量放入init()函数中</li>
-<li>使用一个成员标记对象是否已经初始化成功</li>
-</ol>
-</li>
-<li>默认构造函数<ol>
-<li>如果没有其他构造函数，并且类定义了成员变量，定义一个默认构造函数，初始化成员变量，使调试变得更简单。</li>
-</ol>
-</li>
-<li>对单个参数的构造函数使用关键词explicit，避免隐式转换</li>
-<li>拷贝构造函数：仅在需要拷贝的类对象使用拷贝构造函数，否则要使用noncopyable</li>
-<li>容器中应该尽量使用指向指针，而不是定义拷贝构造和赋值构造</li>
-<li>仅当只有数据时使用struct（可包含构造，析构，init，reset，valid等对数据处理的函数），其他情况一律考虑使用class</li>
-<li>继承：使用组合通常比继承更合适，如果使用继承，只是用public继承，努力做到在在“is a”的情况系才使用继承。<ul>
-<li>组合 &gt; 实现继承 &gt; 接口继承 &gt; 私有继承</li>
-</ul>
-</li>
-<li>除了少数特定环境外，不要定义重载操作符，在stl容器内，应该尽量使用仿函数，而不是重载运算符</li>
-<li>数据成员私有化，定义getXX()和setXX()获取和设置数据成员</li>
-<li>声明次序：<ul>
-<li>typedef和enum</li>
-<li>常量</li>
-<li>构造函数</li>
-<li>析构函数</li>
-<li>成员函数（包含静态成员函数）</li>
-<li>数据成员（包含静态数据成员）</li>
-</ul>
-</li>
-<li>.cc中函数的定义应该尽量与声明一致</li>
-<li>倾向于编写短小、凝聚的函数，如果函数超过40行，考虑分割函数。</li>
-</ul>
-<h2 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h2><ul>
-<li>文件名全部采用小写，可使用-和_    http_server_log.cc</li>
-<li>c++文件以.cc为后缀</li>
-<li>类、结构体、类型定义(typedef)、枚举：每个单词以大写字母开头，不包含下划线</li>
-<li>变量名：  <ul>
-<li>一律小写，单词间以下划线相连</li>
-<li>类成员变量以下划线结尾          my_variable_</li>
-<li>结构提成员结尾不用下划线        my_variable</li>
-</ul>
-</li>
-<li>常量名（局部，全局，类中）：<ul>
-<li>在名称前加k，后接大写字母开头的单词   kRecvBuffer</li>
-</ul>
-</li>
-<li>函数名：<ul>
-<li>普通函数：大小写混合            AddTimer</li>
-<li>存储函数：与变量名匹配 my_variable–&gt;my_variable  set_my_variable</li>
-</ul>
-</li>
-<li>命名空间：全是小写</li>
-<li>枚举命名，宏命名：全部大写，单词之间采用下划线相连。</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/23/google%20c++%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/" data-id="clgs7fspe0001o8vbbay116jv" data-title="" class="article-share-link">Teilen</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+默认构造函数
+如果没有其他构造函数，并且类定义了成员变量，定义一个默认构造函数，初始化成员变量，使调试变得更简单。
 
 
+对单个参数的构造函数使用关键词explicit，避免隐式转换
+拷贝构造函数：仅在需要拷贝的类对象使用拷贝构造函数，否则要使用noncopyable
+容器中应该尽量使用指向指针，而不是定义拷贝构造和赋值构造
+仅当只有数据时使用struct（可包含构造，析构，init，reset，valid等对数据处理的函数），其他情况一律考虑使用class
+继承：使用组合通常比继承更合适，如果使用继承，只是用 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2023/04/23/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-04-22T16:32:33.279Z" title="Created 2023-04-23 00:32:33">2023-04-23</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
 
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/04/23/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2023-04-22T16:32:33.279Z" itemprop="datePublished">2023-04-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/04/23/hello-world/">Hello World</a>
-    </h1>
-  
+More info: Writing
+Run server1$ hexo server
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+More info: Server
+Generate static files1$ hexo generate
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+More info: Generating
+Deploy to remote sites1$ hexo deploy
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/23/hello-world/" data-id="clgs79dec0000o8vbf82b71vv" data-title="Hello World" class="article-share-link">Teilen</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/04/">April 2023</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/04/23/aaa/">aaa</a>
-          </li>
-        
-          <li>
-            <a href="/2023/04/23/README/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2023/04/23/google%20c++%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2023/04/23/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 Fepo_H<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Fepo_H</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/aaa/" title="aaa">aaa</a><time datetime="2023-04-22T16:41:52.000Z" title="Created 2023-04-23 00:41:52">2023-04-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/README/" title="No title">No title</a><time datetime="2023-04-22T16:39:07.392Z" title="Created 2023-04-23 00:39:07">2023-04-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/google%20c++%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83/" title="No title">No title</a><time datetime="2023-04-22T16:38:30.454Z" title="Created 2023-04-23 00:38:30">2023-04-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2023/04/23/hello-world/" title="Hello World">Hello World</a><time datetime="2023-04-22T16:32:33.279Z" title="Created 2023-04-23 00:32:33">2023-04-23</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">April 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-04-22T17:37:51.393Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Fepo_H</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
